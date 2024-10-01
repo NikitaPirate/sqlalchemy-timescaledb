@@ -12,6 +12,11 @@ registry.register(
     'TimescaledbPsycopg2Dialect'
 )
 registry.register(
+    'timescaledb.psycopg',
+    'sqlalchemy_timescaledb.dialect',
+    'TimescaledbPsycopgDialect'
+)
+registry.register(
     'timescaledb.asyncpg',
     'sqlalchemy_timescaledb.dialect',
     'TimescaledbAsyncpgDialect'
